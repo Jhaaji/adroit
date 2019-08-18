@@ -1,0 +1,17 @@
+<% include ../partials/header %>
+
+<div class="container">
+
+<h1>Add new workers here</h1>
+
+<form action="/workers/new" method="POST">
+    <input class="form-control" type="text" placeholder="name" name="name" required="required">
+    <input class="form-control" type="text" placeholder="age" name="age" required="required">
+    <input class="form-control" type="text" placeholder="location" name="location" required="required">
+     <input class="form-control" type="text" placeholder="description" name="description" required="required">
+    <button class="btn btn-lg btn-default"> Submit </button>
+</form>
+
+</div>
+
+<% include ../partials/footer %>
